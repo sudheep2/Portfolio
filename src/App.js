@@ -1,25 +1,43 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
+import Aboutme from './components/Aboutme'
+import Introduction from './components/Introduction'
+import Navbar from './components/Navbar'
+import {repos,skills} from './components/js/config.js'
+import Project from './components/Project'
+import Skills from './components/Skills';
+import Footer from './components/Footer';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+class App extends Component {
+  render() {
+    return (
+      <div id="colorlib-page">
+      <div id="container-wrap">
+         <Navbar />
+      <div id="colorlib-main">
+        <Introduction></Introduction>
+        <Aboutme />
+        {repos.show && (
+        <Project
+          heading={repos.heading}
+          username={repos.gitHubUsername}
+          length={repos.reposLength}
+          specfic={repos.specificRepos} 
+        />
+      )}
+      {skills.show && (
+        <Skills
+          heading={skills.heading}
+          hardSkills={skills.hardSkills}
+          softSkills={skills.softSkills}
+        />
+      )}
+        <Footer />
+          </div>
+      </div>
     </div>
-  );
+    );
+  }
 }
-
 export default App;
