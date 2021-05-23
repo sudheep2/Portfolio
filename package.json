@@ -3,6 +3,11 @@
   "homepage": "http://sudheep2.github.io/Portfolio",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "sudheep2",
+    "email": "sr811838@student.nitw.ac.in",
+    "url": "https://github.com/sudheep2"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
