@@ -12,6 +12,9 @@
     body {
       margin-bottom: 200px;
     }
+    .footer {
+      height: 500px;
+    }
 }
 
 /* Sticky footer style and color
