@@ -10,10 +10,10 @@
 /* Taller footer on small screens */
 @media (max-width: 567em) {
     body {
-      margin-bottom: 200px;
+      margin-bottom: 400px;
     }
     .footer {
-      height: 500px;
+      height: 700px;
     }
 }
 
