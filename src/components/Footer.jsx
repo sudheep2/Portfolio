@@ -16,7 +16,7 @@ export default class Footer extends Component{
                 <hr />
             </div>
             <div class="col-md-5">
-                <form>
+                <form action="mailto:venkatsaisudheep@gmail.com" method="POST" enctype="multipart/form-data" name="EmailForm">
                     <fieldset class="form-group">
                         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email" />
                     </fieldset>
