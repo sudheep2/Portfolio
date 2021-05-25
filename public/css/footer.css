@@ -4,7 +4,7 @@
 .footer {
   width: 100%;
   /* Set the fixed height of the footer here */
-  height: 100px;
+  height: 300px;
 }
 
 /* Taller footer on small screens */
@@ -13,7 +13,7 @@
       margin-bottom: 200px;
     }
     .footer {
-      height: 400px;
+      height: 800px;
     }
 }
 

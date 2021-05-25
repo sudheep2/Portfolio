@@ -30,7 +30,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy":"npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
@@ -52,6 +52,11 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^3.1.0"
+    "gh-pages": "^3.2.0",
+    "postcss": "^8.3.0",
+    "postcss-focus": "^5.0.1"
+  },
+  "peerDependencies": {
+    "postcss": "^8.0.0"
   }
 }
