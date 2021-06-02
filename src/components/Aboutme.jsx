@@ -21,7 +21,7 @@ export default class Aboutme extends Component{
         <div class="postcard__preview-txt">Creative and astute learner, seeking opportunity to prove my mettle with proven team collaboration and management qualities. Aiming to use my knowledge to achieve results</div>
         <ul class="postcard__tagbox">
             <li class="tag__item play red">
-                <a href="https://drive.google.com/file/d/1R1gjJc05hk4WEX1m0dq60zdBnEsneWeo/view?usp=sharing">My Resume</a>
+                <a href="https://drive.google.com/file/d/1_CYbkeOz58ujUysqKqABPTJp46qMS4Qi/view?usp=sharing">My Resume</a>
             </li>
         </ul>
     </div>
